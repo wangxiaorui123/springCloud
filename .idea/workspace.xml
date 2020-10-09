@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a15471b-9554-4508-9b73-72dd73cfb2e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eureka/src/main/java/com/eurekastudy/eureka/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/serverstudy/server/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/serverstudy/server/openapi/OpenApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/serverstudy/server/service/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/serverstudy/server/service/impl/ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/webstudy/web/controller/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/serverstudy/server/ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/serverstudy/server/ServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/serverstudy/server/openapi/OpenApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/serverstudy/server/openapi/OpenApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/webstudy/web/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/webstudy/web/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="241" />
+    <option name="myElementSize" value="271" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,13 +58,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tankOne" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ServerApplication">
+  <component name="RunManager" selected="Spring Boot.WebApplication">
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.eurekastudy.eureka.EurekaApplication" />
@@ -73,6 +75,13 @@
     <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.serverstudy.server.ServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.webstudy.web.WebApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -224,6 +233,7 @@
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.ServerApplication" />
       <item itemvalue="Tomcat Server.Tomcat 8.0.38" />
+      <item itemvalue="Spring Boot.WebApplication" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -262,7 +272,7 @@
       <workItem from="1601033492626" duration="26000" />
       <workItem from="1601167296331" duration="927000" />
       <workItem from="1601252426803" duration="378000" />
-      <workItem from="1602203814683" duration="11030000" />
+      <workItem from="1602203814683" duration="17150000" />
     </task>
     <servers />
   </component>
@@ -278,58 +288,58 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602211678380" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1602212387225">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1602228268673">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602212387225" />
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1602227224522">
+    <state x="740" y="280" key="FileChooserDialogImpl/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602228268673" />
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1602233220740">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602227224522" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1602227224522">
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602233220740" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1602233220740">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.center/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602227224522" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1602227224522">
+    <state width="1877" height="352" key="GridCell.Tab.0.center/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602233220740" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1602233220740">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.left/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602227224522" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1602227224522">
+    <state width="1877" height="352" key="GridCell.Tab.0.left/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602233220740" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1602233220740">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.right/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602227224522" />
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1602227224522">
+    <state width="1877" height="352" key="GridCell.Tab.0.right/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602233220740" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1602233220741">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602227224522" />
-    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1602227224522">
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602233220741" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1602233220741">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.center/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602227224522" />
-    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1602227224522">
+    <state width="1877" height="352" key="GridCell.Tab.1.center/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602233220741" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1602233220740">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.left/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602227224522" />
-    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1602227224522">
+    <state width="1877" height="352" key="GridCell.Tab.1.left/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602233220740" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1602233220741">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.right/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602227224522" />
-    <state width="1877" height="352" key="GridCell.Tab.2.bottom" timestamp="1602227224523">
+    <state width="1877" height="352" key="GridCell.Tab.1.right/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602233220741" />
+    <state width="1877" height="352" key="GridCell.Tab.2.bottom" timestamp="1602233220742">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.2.bottom/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602227224523" />
-    <state width="1877" height="352" key="GridCell.Tab.2.center" timestamp="1602227224523">
+    <state width="1877" height="352" key="GridCell.Tab.2.bottom/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602233220742" />
+    <state width="1877" height="352" key="GridCell.Tab.2.center" timestamp="1602233220741">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.2.center/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602227224523" />
-    <state width="1877" height="352" key="GridCell.Tab.2.left" timestamp="1602227224522">
+    <state width="1877" height="352" key="GridCell.Tab.2.center/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602233220741" />
+    <state width="1877" height="352" key="GridCell.Tab.2.left" timestamp="1602233220741">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.2.left/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602227224522" />
-    <state width="1877" height="352" key="GridCell.Tab.2.right" timestamp="1602227224523">
+    <state width="1877" height="352" key="GridCell.Tab.2.left/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602233220741" />
+    <state width="1877" height="352" key="GridCell.Tab.2.right" timestamp="1602233220742">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.2.right/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602227224523" />
+    <state width="1877" height="352" key="GridCell.Tab.2.right/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602233220742" />
     <state width="1293" height="285" key="GridCell.Tab.3.bottom" timestamp="1602212547624">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -346,14 +356,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1293" height="285" key="GridCell.Tab.3.right/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602212547624" />
+    <state x="490" y="180" key="Maven.ArtifactSearchDialog" timestamp="1602228708786">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="490" y="180" key="Maven.ArtifactSearchDialog/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602228708786" />
     <state x="461" y="167" key="SettingsEditor" timestamp="1601020665542">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1601020665542" />
-    <state x="334" y="219" key="new project wizard" timestamp="1602227223353">
+    <state x="334" y="219" key="new project wizard" timestamp="1602233219399">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="334" y="219" key="new project wizard/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602227223353" />
+    <state x="334" y="219" key="new project wizard/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602233219399" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springCloud$EurekaApplication.ic" NAME="EurekaApplication Coverage Results" MODIFIED="1602209507070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
