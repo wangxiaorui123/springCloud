@@ -1,0 +1,31 @@
+server:
+  port: 8096
+
+eureka:
+  instance:
+    preferIpAddress: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://@eureka.user.name@:@eureka.user.password@@localhost:8098/eureka/
+
+spring:
+  application:
+    name: web-service
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: false
+    config:
+      discovery:
+        enabled: true
+        service-id: config-service
+      label: test
+      profile: test
+      name: config
+      fail-fast: true
+      retry:
+        initial-interval: 2000
+        max-attempts: 6
+        max-interval: 4000
+        multiplier: 1.2
