@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a15471b-9554-4508-9b73-72dd73cfb2e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/resources/config/dev/config-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/resources/config/test/config-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/main/java/com/configstudy/config/ConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/java/com/configstudy/config/ConfigApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/webstudy/web/controller/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/webstudy/web/controller/WebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +41,16 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
@@ -67,18 +69,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/resources" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\wangxiaorui\springCloud\web\src\main\resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\wangxiaorui\springCloud\config\src\main\resources\config" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.webstudy.web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wangxiaorui\springCloud\web\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.WebApplication">
@@ -302,6 +307,11 @@
       <workItem from="1601252426803" duration="378000" />
       <workItem from="1602203814683" duration="20072000" />
       <workItem from="1602290706423" duration="15689000" />
+      <workItem from="1605614786956" duration="1363000" />
+      <workItem from="1605660228634" duration="4000" />
+      <workItem from="1608885124251" duration="5504000" />
+      <workItem from="1608891642512" duration="949000" />
+      <workItem from="1609396589314" duration="3411000" />
     </task>
     <servers />
   </component>
@@ -317,26 +327,34 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602211678380" />
+    <state x="562" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605614917963">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="562" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1605614917963" />
+    <state x="739" y="404" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1605614920288">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="739" y="404" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1605614920288" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1602291599649">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="280" key="FileChooserDialogImpl/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602291599649" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1602319156399">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1609401821062">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602319156399" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1602319156399">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1609401821062" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1609401821062">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602319156399" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1602319156399">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1609401821062" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1609401821062">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602319156399" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1602319156399">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1609401821062" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1609401821062">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602319156399" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1609401821062" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1602319156396">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -389,14 +407,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="490" y="180" key="Maven.ArtifactSearchDialog/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602228708786" />
-    <state x="461" y="167" key="SettingsEditor" timestamp="1601020665542">
+    <state x="461" y="167" key="SettingsEditor" timestamp="1608891589824">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="167" key="SettingsEditor/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1601020665542" />
+    <state x="461" y="167" key="SettingsEditor/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1608891589824" />
+    <state x="567" y="230" width="786" height="590" key="find.popup" timestamp="1609401807196">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="567" y="230" width="786" height="590" key="find.popup/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1609401807196" />
     <state x="334" y="219" key="new project wizard" timestamp="1602315801157">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="334" y="219" key="new project wizard/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1602315801157" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1609396927154">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/-1440.0.1440.870/0.0.1920.1050@0.0.1920.1050" timestamp="1609396927154" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springCloud$EurekaApplication.ic" NAME="EurekaApplication Coverage Results" MODIFIED="1602209507070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

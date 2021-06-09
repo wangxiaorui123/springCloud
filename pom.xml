@@ -15,7 +15,6 @@
         <module>web</module>
         <module>zuul</module>
         <module>config</module>
-        <module>common</module>
     </modules>
 
     <build>
@@ -23,6 +22,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <!-- 源代码使用的JDK版本 -->
                     <source>1.8</source>
